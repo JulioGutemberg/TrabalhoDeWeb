@@ -1,4 +1,9 @@
-#geral {
+@font-face {
+	font-family: batman-forever;
+	src: local(batman-forever),url(Fonte/batman_forever/batmfa__.ttf)
+}
+
+#topo {
 	background: gray;
 	width: 800px;
 	margin-left:auto;
@@ -7,4 +12,56 @@
 	margin-bottom:0;
 	margin:0 auto;
 	padding:10px 5px 10px 15px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+#barradenavegacao li{ 
+	
+	list-style: none;
+	display: inline-block;
+	padding: 14px 16px;
+	background-color: gray;
+}
+
+#barradenavegacao li:hover{
+	background-color: #C71585;
+}
+
+#logo{
+	font-family:batman-forever;
+}
+
+#PlanoDeFundo{
+	background-color: black;
+}
+
+#pesquisa{
+	position: absolute;
+	top:45px;
+	right:300px;
+}
+
+#barradepesquisa{
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+
+#botao1{
+	font-family: batman-forever;
+	color:white;
+	background-color: gray;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	transition-duration: 0.4s;
+}
+
+#botao1:hover{
+	background-color: #C71585;
+}
+
+a{
+	color: white;
+	text-decoration: none;
 }
