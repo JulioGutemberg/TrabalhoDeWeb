@@ -1,4 +1,6 @@
+
 /*Update de Fontes*/
+
 @font-face {
 	font-family: batman-forever;
 	src: local(batman-forever),url(Fonte/batman_forever/batmfa__.ttf)
@@ -9,6 +11,7 @@
 	src: local(champagne),url(Fonte/champagne_limousines/Champagne_Limousines.ttf)
 }
 
+/* controle do cabeçalho*/
 
 #topo {
 	background: #00a8cc;
@@ -19,10 +22,9 @@
 	margin-bottom:0;
 	margin:0 auto;
 	padding:10px 5px 10px 15px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
 }
-/* CSS da Barra de Navegação*/
+
+/* Barra de Navegação*/
 
 #barradenavegacao ul{
 	margin: 0;
@@ -53,7 +55,7 @@
 
 #pesquisa{
 	position: absolute;
-	top:45px;
+	top:19px;
 	right:273px;
 	width: 240px;
 	
@@ -93,3 +95,7 @@ nav{
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 }
+
+/* garante a responsividade*/ 
+* { margin: 0; padding: 0; }
+

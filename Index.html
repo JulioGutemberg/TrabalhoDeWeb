@@ -2,17 +2,22 @@
 <head>
         <title color>Mundo Geek</title>
         <link rel="stylesheet" type="text/css" href="geral.css" />
+        <link rel="stylesheet" type="text/css" href="gallery.theme.css"/>
+        <link rel="stylesheet" type="text/css" href="gallery.min.css"/>
+        <!-- <script src="carrossel.js"></script> -->
 </head>
 <body>
+
     <!-- Cabeçalho do site -->
-    <div id="topo">
-        <header > 
-            <h1 id="logo">Mundo Geek</h1>
-            <form id="pesquisa" >
-                <input id="barradepesquisa" type="text"placeholder=" Esta perdido?"/>
-            </form>
-        </header>
-    </div>
+        <div id="topo">
+            <header > 
+                <h1 id="logo">Mundo Geek</h1>
+                <form id="pesquisa" >
+                    <input id="barradepesquisa" type="text"placeholder=" Esta perdido?"/>
+                </form>
+            </header>
+        </div>
+
     <!-- Barra de navegação -->
     <div>
         <nav id="barradenavegacao">
@@ -37,6 +42,40 @@
                 </li>
             </ul>
         </nav>
+    </div>
+
+    <!-- Carrossel -->
+    <div class="gallery items-3">
+        <div>
+            <div id="item-1" class="control-operator"></div>
+            <div id="item-2" class="control-operator"></div>
+            <div id="item-3" class="control-operator"></div>
+
+            <figure class="item">
+                <h1><a href="https://www.omelete.com.br/filmes/coronavirus-tudo-o-que-foi-cancelado/"><img src="Imagem/Cancelado.png"></a></h1>
+            </figure>
+
+            <figure class="item">
+                    <h1><a href="https://jovemnerd.com.br/nerdbunker/bleach-ultimo-arco-sera-adaptado-para-anime-em-2021/"><img src="Imagem/bleach-2020.png"></a></h1>
+            </figure>
+
+            <figure class="item">
+                <h1><a href="https://www.omelete.com.br/filmes/coronavirus-shoppings-de-sao-paulo-fechados"><img src="Imagem/cinemas.png"></a></h1>
+            </figure>
+
+            <div class="controls">
+                <a href="#item-1" class="control-button">.</a>
+                <a href="#item-2" class="control-button">.</a>
+                <a href="#item-3" class="control-button">.</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Roda o pé -->
+    <div>
+        <footer>
+            <p> Grupo: Júlio Gutemberg, Maierlly </p>
+        </footer>
     </div>
 </body>
 </html>
